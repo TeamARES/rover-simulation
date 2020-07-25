@@ -13,6 +13,6 @@
 
   <!-- Show in Rviz   -->
   <node name="rviz" pkg="rviz" type="rviz"/>
-  <!--node name="rviz" pkg="rviz" type="rviz" args="-d $(find mybot_description)/launch/myrobot.rviz"/-->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find fb_description)/launch/fb.rviz"/>
 
 </launch>
